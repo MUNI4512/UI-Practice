@@ -1,22 +1,44 @@
-    1  ls
-    2  ls -lrt
-    3  cd
-    4  cd Desktop/
-    5  https://github.com/MUNI4512/UI-Practice.git
-    6  echo "# UI-Practice" >> README.md
-    7  git init
-    8  git add README.md'
-    9  git commit -m "first commit"
+  
+
+ "GIT BASH is nothing but command Prompt"
+
+  1 (To add user name in git bash)
    10   git config --global user.email "munipramod300.kona@gmai.com"
    11  git config --global user.name "MUNI4512"
-   12  git commit -m "first commit"
-   13  git remote add origin git@github.com:MUNI4512/UI-Practice.git
-   14  git push -u origin master
+   ---------****-----------------------------
+   
+   12  (SSH Keygeneration to add in github)
    15  ssh-keygen -t rsa -b 4096 -C "munipramod300.kona@gmai.com"
    16  eval $(ssh-agent -s)
    17  ssh-add ~/.ssh/id_rsa
    18  cat /c/Users/RamaTulasi/.ssh/id_rsa
    19  clip < ~/.ssh/id_rsa.pub
+   --------------****------------------
+   
+   (to clone for 1st time folder copy from github)
+  
+   git clone git@github.com:MUNI4512/UI-Practice.git
+----------------------*****----------------------------------
+(to push all files to git hub)
+    git add **/*.jpeg -m "jpeg files"
+    git add --all
+    git commit -m "all files"
+    git push origin munipramod
+	
+	(or) git add -A
+	
+	(to know history of commands which we used in gitbash)
+    history
+    history>>commands.text
+------------****--------------
+git stash
+
+
+
+
+
+
+
    20  git remote add origin git@github.com:MUNI4512/UI-Practice.git
    21  git push -u origin master
    22  pwd
@@ -61,8 +83,7 @@
    61  git gui
    62  git gui
    63  clear
-   64  git clone
-   65  git clone git@github.com:MUNI4512/UI-Practice.git
+   64  
    66  ls
    67  ls
    68  cd
@@ -108,10 +129,6 @@
   108  git gui
   109  git add **/*.jpg -m "jpg files"
   110  git gui
-  111* 
-  112  git add **/*.jpeg -m "jpeg files"
-  113  git add --all
-  114  git commit -m "all files"
-  115  git push origin munipramod
-  116  history
-  117  history>>commands.text
+  111 
+  
+  112  
