@@ -1,0 +1,117 @@
+    1  ls
+    2  ls -lrt
+    3  cd
+    4  cd Desktop/
+    5  https://github.com/MUNI4512/UI-Practice.git
+    6  echo "# UI-Practice" >> README.md
+    7  git init
+    8  git add README.md'
+    9  git commit -m "first commit"
+   10   git config --global user.email "munipramod300.kona@gmai.com"
+   11  git config --global user.name "MUNI4512"
+   12  git commit -m "first commit"
+   13  git remote add origin git@github.com:MUNI4512/UI-Practice.git
+   14  git push -u origin master
+   15  ssh-keygen -t rsa -b 4096 -C "munipramod300.kona@gmai.com"
+   16  eval $(ssh-agent -s)
+   17  ssh-add ~/.ssh/id_rsa
+   18  cat /c/Users/RamaTulasi/.ssh/id_rsa
+   19  clip < ~/.ssh/id_rsa.pub
+   20  git remote add origin git@github.com:MUNI4512/UI-Practice.git
+   21  git push -u origin master
+   22  pwd
+   23  ls
+   24  cd 'MUNI PRAMOD'
+   25  ls
+   26  git status
+   27  git gui
+   28  ls
+   29  git add animate.css
+   30  git commit -m "css"
+   31  git push origin master
+   32  git pull
+   33  git pull origin master
+   34  git init
+   35  ls
+   36  cd munipramod
+   37  pwd
+   38  cd Desktop/
+   39  ls
+   40  cd MUNI\ PRAMOD/
+   41  ls
+   42  git status
+   43  git gui
+   44  ls
+   45  cd
+   46  cd ../
+   47  pwd
+   48  ls
+   49  cd RamaTulasi/
+   50  ls
+   51  cd Desktop/
+   52  ls
+   53  cd Assests/
+   54  git diff
+   55  git status
+   56  ls
+   57  git gui
+   58  git gui
+   59  git exit
+   60  git init
+   61  git gui
+   62  git gui
+   63  clear
+   64  git clone
+   65  git clone git@github.com:MUNI4512/UI-Practice.git
+   66  ls
+   67  ls
+   68  cd
+   69  cd UI-Practice
+   70  cd UI-Practice/
+   71  git init
+   72  cd UI-Practice/
+   73  ls
+   74  pwd
+   75  cd Desktop/Assests/UI-Practice/
+   76  ls
+   77  git status
+   78  git gui
+   79  git checkout -b munipramod
+   80  ls
+   81  git gui
+   82  git gui
+   83  ls
+   84  git add animate.css
+   85  git commit
+   86  git init
+   87  ls
+   88  cd
+   89  cd Desktop/Assests/UI-Practice/
+   90  ls
+   91  git push origin munipramod
+   92  ls
+   93  git status
+   94  git pull
+   95  git pull origin master
+   96  ls
+   97  git gui
+   98  git add **/*.png
+   99  git commit -m "png files"
+  100  git push origin master
+  101  git push origin munipramod
+  102  git pull origin master
+  103  git status
+  104  git gui
+  105  git exit
+  106  git init
+  107  git gui
+  108  git gui
+  109  git add **/*.jpg -m "jpg files"
+  110  git gui
+  111* 
+  112  git add **/*.jpeg -m "jpeg files"
+  113  git add --all
+  114  git commit -m "all files"
+  115  git push origin munipramod
+  116  history
+  117  history>>commands.text
